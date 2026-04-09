@@ -1,0 +1,25 @@
+{
+  "name": "gamechatserver",
+  "version": "1.0.0",
+  "description": "실시간 멀티플레이어 게임 채팅 서버 (Spring Boot + WebSocket + Redis)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcmcjangn/game-chat-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mcmcjangn/game-chat-server/issues"
+  },
+  "homepage": "https://github.com/mcmcjangn/game-chat-server#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.20.0"
+  }
+}
